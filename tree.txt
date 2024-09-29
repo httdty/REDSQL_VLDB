@@ -1,0 +1,19 @@
+.
+├── bird
+│   ├── database
+│   ├── dev_annotation.json
+│   ├── dev.json
+│   ├── dev.sql
+│   └── dev_tables.json
+├── preds
+│   └── Predicted_SQLs
+├── spider
+│   ├── database
+│   ├── dev_annotation.json
+│   ├── dev_gold.sql
+│   ├── dev.json
+│   └── dev_tables.json
+├── spider_dk
+├── spider_realistic
+└── spider_syn
+

@@ -1,0 +1,171 @@
+{
+  "AVG": {
+    "input": [
+      "REAL|INTEGER"
+    ],
+    "output": "REAL"
+  },
+  "COUNT": {
+    "input": [
+      "REAL|INTEGER|TEXT"
+    ],
+    "output": "INTEGER"
+  },
+  "GROUP_CONCAT": {
+    "input": [
+      "REAL|INTEGER|TEXT",
+      "TEXT|NULL"
+    ],
+    "output": "TEXT"
+  },
+  "STRING_AGG": {
+    "input": [
+      "REAL|INTEGER|TEXT",
+      "TEXT|NULL"
+    ],
+    "output": "TEXT"
+  },
+  "MAX": {
+    "input": [
+      "REAL|INTEGER|TEXT"
+    ],
+    "output": "REAL|INTEGER|TEXT"
+  },
+  "MIN": {
+    "input": [
+      "REAL|INTEGER|TEXT"
+    ],
+    "output": "REAL|INTEGER|TEXT"
+  },
+  "SUM": {
+    "input": [
+      "REAL|INTEGER"
+    ],
+    "output": "REAL|INTEGER"
+  },
+  "TOTAL": {
+    "input": [
+      "REAL|INTEGER"
+    ],
+    "output": "REAL|INTEGER"
+  },
+  "DISTINCT": {
+    "input": [
+      "REAL|INTEGER|TEXT"
+    ],
+    "output": "REAL|INTEGER|TEXT"
+  },
+  "ABS": {
+    "input": [
+      "REAL|INTEGER"
+    ],
+    "output": "REAL|INTEGER"
+  },
+  "CHANGES": {
+    "input": [],
+    "output": "INTEGER"
+  },
+  "CHAR": {
+    "input": [
+      "INTEGER"
+    ],
+    "output": "TEXT"
+  },
+  "COALESCE": {
+    "input": [
+      "REAL|INTEGER|TEXT"
+    ],
+    "output": "REAL|INTEGER|TEXT"
+  },
+  "CONCAT": {
+    "input": [
+      "TEXT|REAL|INTEGER"
+    ],
+    "output": "TEXT"
+  },
+  "CONCAT_WS": {
+    "input": [
+      "TEXT",
+      "TEXT"
+    ],
+    "output": "TEXT"
+  },
+  "DATE": {
+    "input": [
+      "TEXT|REAL|INTEGER",
+      "TEXT|NULL"
+    ],
+    "output": "TEXT"
+  },
+  "TIME": {
+    "input": [
+      "TEXT|REAL|INTEGER",
+      "TEXT"
+    ],
+    "output": "TEXT"
+  },
+  "DATETIME": {
+    "input": [
+      "TEXT|REAL|INTEGER|NULL",
+      "TEXT|NULL"
+    ],
+    "output": "TEXT"
+  },
+  "JULIANDAY": {
+    "input": [
+      "TEXT|REAL|INTEGER"
+    ],
+    "output": "REAL"
+  },
+  "UNIXEPOCH": {
+    "input": [
+      "TEXT|REAL|INTEGER",
+      "TEXT"
+    ],
+    "output": "INTEGER"
+  },
+  "STRFTIME": {
+    "input": [
+      "TEXT",
+      "TEXT|REAL|INTEGER",
+      "TEXT|REAL|INTEGER|NULL"
+    ],
+    "output": "TEXT"
+  },
+  "TIMEDIFF": {
+    "input": [
+      "TEXT",
+      "TEXT"
+    ],
+    "output": "TEXT"
+  },
+  "SUBSTR": {
+    "input": [
+      "TEXT|INTEGER|REAL|BLOB",
+      "INTEGER",
+      "INTEGER|NULL"
+    ],
+    "output": "TEXT|BLOB"
+  },
+  "INSTR": {
+    "input": [
+      "TEXT|INTEGER|REAL",
+      "TEXT|INTEGER|REAL"
+    ],
+    "output": "INTEGER"
+  },
+  "SUBSTRING": {
+    "input": [
+      "TEXT|INTEGER|REAL|BLOB",
+      "INTEGER",
+      "INTEGER|NULL"
+    ],
+    "output": "TEXT|BLOB"
+  },
+  "LENGTH": {
+    "input": [
+      "TEXT|INTEGER|REAL"
+    ],
+    "output": "INTEGER"
+  }
+}
